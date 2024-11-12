@@ -1,17 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-:root {
-    --bg-color: #1a1a1a;
-    --card-bg-color: #333;
-    --text-color: #fff;
-    --highlight-color: #a6e22e;
-    --button-bg: #555;
-    --button-hover-bg: #777;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
 }
 
 body {
@@ -19,52 +13,56 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: var(--bg-color);
+    background-color:  hsl(0, 0%, 8%);
 }
 
 .container {
-    background-color: var(--card-bg-color);
-    padding: 20px;
+    background-color:hsl(0, 0%, 12%);
+    padding: 30px 10px 23px;
     border-radius: 10px;
     text-align: center;
-    width: 300px;
+    width: 315px;
 }
 
 .container img {
     width: 80px;
     height: 80px;
-    border-radius: 50%;
-    margin-bottom: 10px;
+    border-radius: 360px;
+    margin-bottom: 25px;
 }
 
 .container h2 {
     font-size: 25px;
-    margin-bottom: 5px;
-    color: #fff;
+    margin-bottom: 10px;
+    color:  hsl(0, 0%, 100%);
+    font-weight: 600;
 }
 
 .container .local {
-    color: var(--highlight-color);
-    font-weight: bold;
-    margin-bottom: 10px;
+    color:  hsl(75, 94%, 57%);
+    font-size: 14px;
+    margin-bottom: 30px;
 }
 
 .container p {
-    font-size: 12px;
-    color: #fff;
-    margin-bottom: 20px;
+    font-size: 14px;
+    color:  hsl(0, 0%, 100%);
+    margin-bottom: 30px;
+    font-weight: 400;
 }
 
 .container .button {
     display: block;
-    background-color: var(--button-bg);
-    color: #fff;
+    background-color: hsl(0, 0%, 20%);
+    color:  hsl(0, 0%, 100%);
     text-decoration: none;
     padding: 10px;
-    margin: 15px ;
-    border-radius: 5px;
+    margin: 13px ;
+    border-radius: 7px;
+    font-size: 13px;
 }
 
 .container .button:hover {
-    background-color: var(--highlight-color);
+    background-color: hsl(75, 94%, 57%);
+    color: #000;
 }
